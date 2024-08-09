@@ -4,8 +4,6 @@ project(chip8)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR/3rdParty})
 
-#set(SDL2_PATH "/Users/aaronhan/Projects/Chip-8_Emulator/3rdParty/SDL2.framework")
-
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 
